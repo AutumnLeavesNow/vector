@@ -52,7 +52,7 @@ namespace vector
                     val = (dynamic)Vect[i] * (dynamic)Vect[i];
                     res += val;
                 }
-                return res;  
+                return Math.Sqrt(res);  
             }
         }
         //Operators 
